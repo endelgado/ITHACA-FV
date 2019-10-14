@@ -83,8 +83,8 @@ struct newtonSteadyNSTurb: public newton_argument<double>
 \*---------------------------------------------------------------------------*/
 
 
-/// Class where it is implemented a reduced problem for the <b> steady turbulent Navier-stokes </b> problem.
-/** In this class are implemented the methods to solve a reduced version of the stationary turbulent Navier-stokes
+/// Class where it is implemented a reduced problem for the <b> steady turbulent Navier-Stokes </b> problem.
+/** In this class are implemented the methods to solve a reduced version of the stationary turbulent Navier-Stokes
 equations. This class must be used together with the steadyNS class */
 class ReducedSteadyNSTurb: public reducedSteadyNS
 {
@@ -130,7 +130,7 @@ class ReducedSteadyNSTurb: public reducedSteadyNS
         /// @param[in]  velNow   The vector of online velocity. It is defined in
         /// with an Eigen::MatrixXd and must have one col and as many rows as the number
         /// of parametrized boundary conditions.
-        /// @param[in]  startSnap The first snapshot taken from the offline snahpshots
+        /// @param[in]  startSnap The first snapshot taken from the offline snapshots
         /// and used to get the reduced initial condition.
         ///
         void solveOnlineSUP(Eigen::MatrixXd velNow);
