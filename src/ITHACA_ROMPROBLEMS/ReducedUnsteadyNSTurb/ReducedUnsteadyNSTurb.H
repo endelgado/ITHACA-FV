@@ -115,8 +115,8 @@ struct newtonUnsteadyNSTurbPPE: public newton_argument<double>
                         Class reducedProblem Declaration
 \*---------------------------------------------------------------------------*/
 
-/// Class where it is implemented a reduced problem for the <b> unsteady Navier-stokes </b> problem.
-/** In this class are implemented the methods to solve a reduced version of the stationary Navier-stokes
+/// Class where it is implemented a reduced problem for the <b> unsteady Navier-Stokes </b> problem.
+/** In this class are implemented the methods to solve a reduced version of the stationary Navier-Stokes
 equations. This class must be used together with the steadyNS class */
 class ReducedUnsteadyNSTurb: public reducedUnsteadyNS
 {

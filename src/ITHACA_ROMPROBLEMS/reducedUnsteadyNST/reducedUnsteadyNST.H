@@ -100,8 +100,8 @@ struct newton_unsteadyNST_sup_t: public newton_argument<double>
                         Class reducedProblem Declaration
 \*---------------------------------------------------------------------------*/
 
-/// Class where it is implemented a reduced problem for the <b> unsteady Navier-stokes weakly coupled with the energy equation </b> problem.
-/** In this class are implemented the methods to solve a reduced version of the non-stationary Navier-stokes and energy
+/// Class where it is implemented a reduced problem for the <b> unsteady Navier-Stokes weakly coupled with the energy equation </b> problem.
+/** In this class are implemented the methods to solve a reduced version of the non-stationary Navier-Stokes and energy
 equations. This class must be used together with the unsteadyNST class */
 class reducedUnsteadyNST: public reducedUnsteadyNS
 {
@@ -123,7 +123,7 @@ class reducedUnsteadyNST: public reducedUnsteadyNS
         /// Diffusion Term
         Eigen::MatrixXd B_matrix;
 
-        /// Laplacian Term for temperature trasnport equation
+        /// Laplacian Term for temperature transport equation
         Eigen::MatrixXd Y_matrix;
 
         /// Mass Matrix Term for temperature
