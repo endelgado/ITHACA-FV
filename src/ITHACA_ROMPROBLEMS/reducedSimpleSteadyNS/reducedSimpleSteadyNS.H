@@ -99,7 +99,7 @@ class reducedSimpleSteadyNS: public reducedProblem
         fvVectorMatrix get_Umatrix_Online(volVectorField& U, volScalarField& p);
 
         ///
-        /// @brief      Gets the Pmatrix for the online solver: it just assembls the pure matrix.
+        /// @brief      Gets the Pmatrix for the online solver: it just assembles the pure matrix.
         ///
         /// @param[in]      U     Velocity vector field
         /// @param[in]      p     Pressure scalar field

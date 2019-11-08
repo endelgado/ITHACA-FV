@@ -124,8 +124,8 @@ struct newton_unsteadyNSTturb_sup_t: public newton_argument<double>
                         Class reducedProblem Declaration
 \*---------------------------------------------------------------------------*/
 
-/// Class where it is implemented a reduced problem for the <b> unsteady Navier-stokes weakly coupled with the energy equation </b> problem.
-/** In this class are implemented the methods to solve a reduced version of the non-stationary Navier-stokes coupled with the energy
+/// Class where it is implemented a reduced problem for the <b> unsteady Navier-Stokes weakly coupled with the energy equation </b> problem.
+/** In this class are implemented the methods to solve a reduced version of the non-stationary Navier-Stokes coupled with the energy
 equations. This class must be used together with the unsteadyNST class */
 class reducedUnsteadyNSTturb: public reducedUnsteadyNST
 {

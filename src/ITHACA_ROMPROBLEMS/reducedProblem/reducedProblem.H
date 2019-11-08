@@ -110,7 +110,7 @@ class onlineInterp
 
         //--------------------------------------------------------------------------
         /// @brief      Get interpolated coefficients evaluated at points from matrix "mu_interp" using the constructed parameters-coefficients manifold
-        /// @param[in]  model       Type of the interpolator model, either "rbf" or spl", which must be the same as in the constructed model in the offline phase (see "buildCoeffManifold" method)
+        /// @param[in]  model       Type of the interpolator model, either "rbf" or "spl", which must be the same as in the constructed model in the offline phase (see "buildCoeffManifold" method)
         /// @param[in]  mu_interp   The matrix of points required to be evaluated using the constructed interpolator model. The matrix has a shape (n x m) where "n" is the number of points need to be evaluated (i.e. Nsnapshots) for parametric simulations, while "m" is the number of parameters
         ///
         /// @return     Interpolated coefficient matrix
@@ -120,7 +120,7 @@ class onlineInterp
 
         //--------------------------------------------------------------------------
         /// @brief      Get interpolated coefficients evaluated at points from matrix "mu_interp" using the constructed parameters-coefficients manifold
-        /// @param[in]  model       Type of the interpolator model, either "rbf" or spl", which must be the same as in the constructed model in the offline phase (see "buildCoeffManifold" method)
+        /// @param[in]  model       Type of the interpolator model, either "rbf" or "spl", which must be the same as in the constructed model in the offline phase (see "buildCoeffManifold" method)
         /// @param[in]  mu_interp   The matrix of points required to be evaluated using the constructed interpolator model. The matrix has a shape (n x m) where "n" is the number of points need to be evaluated (i.e. Nsnapshots) for parametric simulations, while "m" is the number of parameters
         ///
         /// @return     Interpolated coefficient matrix

@@ -103,8 +103,8 @@ struct newton_unsteadyNS_PPE: public newton_argument<double>
                         Class reducedProblem Declaration
 \*---------------------------------------------------------------------------*/
 
-/// Class where it is implemented a reduced problem for the <b> unsteady Navier-stokes </b> problem.
-/** In this class are implemented the methods to solve a reduced version of the stationary Navier-stokes
+/// Class where it is implemented a reduced problem for the <b> unsteady Navier-Stokes </b> problem.
+/** In this class are implemented the methods to solve a reduced version of the stationary Navier-Stokes
 equations. This class must be used together with the steadyNS class */
 class reducedUnsteadyNS: public reducedSteadyNS
 {
@@ -157,7 +157,7 @@ class reducedUnsteadyNS: public reducedSteadyNS
         /// @param[in]  vel_now   The vector of online velocity. It is defined in
         /// with an Eigen::MatrixXd and must have one col and as many rows as the number
         /// of parametrized boundary conditions.
-        /// @param[in]  startSnap The first snapshot taken from the offline snahpshots
+        /// @param[in]  startSnap The first snapshot taken from the offline snapshots
         /// and used to get the reduced initial condition.
         ///
         void solveOnline_PPE(Eigen::MatrixXd vel_now, label startSnap = 0);
@@ -167,7 +167,7 @@ class reducedUnsteadyNS: public reducedSteadyNS
         /// @param[in]  vel_now   The vector of online velocity. It is defined in
         /// with an Eigen::MatrixXd and must have one col and as many rows as the number
         /// of parametrized boundary conditions.
-        /// @param[in]  startSnap The first snapshot taken from the offline snahpshots
+        /// @param[in]  startSnap The first snapshot taken from the offline snapshots
         /// and used to get the reduced initial condition.
         ///
         void solveOnline_sup(Eigen::MatrixXd vel_now, label startSnap = 0);
